@@ -21,9 +21,10 @@ Our source code can be found
 
 <h2>Video Demo</h2>
 <div style="text-align:center;margin:auto;max-width:560px">
-  <div style="padding-bottom:56.25%;position:relative;height:0;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UGESU_c0wPQ?si=CoIdTuwe5fL0UWG3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+   <video width="560" height="315" controls>
+    <source src="./media/EEC172_final_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
 </div>
 '
 ---
