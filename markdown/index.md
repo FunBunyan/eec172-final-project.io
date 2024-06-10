@@ -133,7 +133,7 @@ the LED strip, one to connect each color (red, blue, and green).
   <div style='display: inline-block; vertical-align: top;flex:0 0 400px'>
     <div class="fig">
       <img src="./media/Adafruit_OLED.png" style="width:auto;height:2in" />
-      <span class="caption">Adafruit OLED Circuit Diagram</span>
+      <span class="caption">Figure 3: Adafruit OLED Circuit Diagram</span>
     </div>
   </div>
 </div>
@@ -163,7 +163,7 @@ the LED strip, one to connect each color (red, blue, and green).
   <div style='display: inline-block; vertical-align: top;flex:0 0 400px'>
     <div class="fig">
       <img src="./media/IR_reciever.png" style="width:auto;height:2in" />
-      <span class="caption">IR Receiver Wiring Diagram</span>
+      <span class="caption">Figure 4: IR Receiver Wiring Diagram</span>
     </div>
   </div>
 </div>
@@ -212,7 +212,7 @@ the LED strip, one to connect each color (red, blue, and green).
   <div style='display: inline-block; vertical-align: top;flex:1 0 400px'>
     <div class="fig">
       <img src="./media/MOSFET.png" style="width:auto;height:3in" />
-      <span class="caption">MOSFET and LED strip Circuit Diagram</span>
+      <span class="caption">Figure 5: MOSFET and LED strip Circuit Diagram</span>
     </div>
   </div>
 </div>
@@ -253,6 +253,15 @@ coordinates were still in the previous square, causing one rectangle’s color t
 be overridden. To fix this problem, since all colored rectangles are 32 by 40 
 pixels long, the gray square can only move in multiples of 4.
 
+<div style="display:flex;flex-wrap:wrap;justify-content:space-evenly;">
+    <div style="display:inline-block;vertical-align:top;flex:0 0 400px;">
+        <div class="fig">
+        <img src="./media/Overlap.png" style="width:100%;height:auto;" />
+        <span class="caption">Figure 6: Rectangle being overridden</span>
+        </div>
+    </div>
+</div>
+
 # Future Work
 
 If we had more time, one of the improvements that we would make is adding a 
@@ -280,13 +289,13 @@ Amazon Alexa App to control lights using voice control.
 | LED strip                   | 1        | $10.00                      | [Amazon](https://www.amazon.com/Daybetter-Lights-32-8ft-Remote-Changing/dp/B08D99TWQJ/ref=sr_1_9?crid=389XVSVDL6TIV&dib=eyJ2IjoiMSJ9.6pZHq71t9htVUcz1LgS5kZ-SgxI3pkg75l4cnjxc32qZQke3siLm9rd09MghO5RD9R6isj49yJhzjkCx1gbUjW283TesApvz1F4idRWASkxIHpsiY_9jdmzChGWOYRQB1DuaFGnSU6ujCgFHnEeNc2g7DnV3D2DjWFFDL2oqii-GTGnL48xlQK_z-Y92nTb3E912O46-JMeoUJ_CxjkNxcUTUkglQif3bU1GJ9zMc7h-0P4Rb40rmMAON0vThRALvl7evpg9FKtyBWfe4j5yPvCK8oqR4ZSgR74KtNMLCRU.tjRi8_R88IHUE3xIgCll0GW0xStZnja4C4EQyeKb03k&dib_tag=se&keywords=LED%2Bstrip&qid=1716369993&sprefix=led%2Bstrip%2Caps%2C163&sr=8-9&th=1)                  |
 | MOSFET                      | 3        | $1.00                       | [Amazon](https://www.amazon.com/Bridgold-N-Channel-Transistor-International-Rectifier/dp/B07MW1N4Q5/ref=sr_1_3?c=ts&dib=eyJ2IjoiMSJ9.UtcJgo37Wa6pr8fpKO2Wqlb-yQ8QAVGGH2IL2N6gPXcz4WBR1jg0u5qV0yM5CamTCXr0OQWaEp4xUgZ9tL-czmvLGVMz3INZ47wLCANLXeSkpGINcE-PIVfSzUq60xTYOWH4-sT73QvM266Oy2kgULgoAo-6TYBpY6iUoTkMCegySaWQY13P26u3fOv49w5j2pAgPq8jnL2fVeUB9e68qdNQWYyHiG2hBuzEMRvniEM1kjhX3DRurGyfh8_vx7G30ysAuPnN_9JjF85w33oC35CkNcOx41DHtcyUTHoL9qg.0okQepDECHf8ioMHQEcsJy18hTilHDXPZh_9qZ6Y6ms&dib_tag=se&keywords=MOSFET+Transistors&qid=1716370154&s=industrial&sr=1-3&ts_id=306919011)                   |
 | TI CC3200 Microcontroller   | 2        | $55.00                      | [Ti.com](https://www.ti.com/tool/CC3200-LAUNCHXL#order-start-development)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-# Acknowledgements  
+# References    
 
 - Industries, Adafruit. “OLED Breakout Board - 16-Bit Color 1.5" W/Microsd Holder.” Adafruit Industries Blog RSS, www.adafruit.com/product/1431
 - “Starfield Class 2 CA Certificate.” StarfieldClass2CA.crt.der, https://canvas.ucdavis.edu/courses/897392/files/folder/lab/LAB4?preview=24265625
 - Ti CC3200 Launchpad DataSheet, www.ti.com/lit/ds/symlink/cc2630.pdf
 
-## Code Acknowledgements
+## Code References
 - Tsang, “Lab 4 Blank project.” lab4-blank.zip, https://canvas.ucdavis.edu/courses/897392/files/folder/lab/LAB4?preview=24264023
 - Mathur, Bunuan, “Lab2Part4 Code”, lab2_MitulMathur_AustinBunuan.zip (submitted to Canvas)
 - Mathur, Bunuan, “Lab4Part3 Code”, lab4_MitulMathur_AustinBunuan.zip (submitted to Canvas)
